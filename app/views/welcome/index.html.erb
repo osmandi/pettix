@@ -1,15 +1,17 @@
-<br><br><br>
         <section class="search">
             <input type="text" id="search" class="search--input" placeholder="¿Qué estás buscando?">
         </section>
         
         <section class="connect">
             <h2 class="connect__title">Conecta con amigos</h2>
+            
             <% @pets.each do |pet| %>
             <div class="connect__friends">
                 <div class="connect__friends--item">
                     <figure class="item__img">
-                         <%= image_tag pet.avatar.url %>
+                        <% if pet.image.present? %>
+                         <%= image_tag pet.image.url %>
+                        <% end %>
                     </figure>
                     <div class="item__data">
                         <h3 class="item__data--name"><%= pet.name %></h3>

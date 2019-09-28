@@ -1,9 +1,9 @@
 class Pet
   include Mongoid::Document
-  include Mongoid::Paperclip
 
-  has_mongoid_attached_file :avatar
+  mount_uploader :image, ImageUploader
 
+  field :image, type: String
   field :name, type: String
   field :raza, type: String
   field :tipo, type: String
