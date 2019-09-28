@@ -1,24 +1,10 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Librerías y Frameworks
+- Docker
+- Ruby On Rails
+- MongoDB
 
-Things you may want to cover:
+## Cómo correr
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Para correr primero instalar `Docker` y `docker-compose`. Luego ejecutar `docker-compose up`
