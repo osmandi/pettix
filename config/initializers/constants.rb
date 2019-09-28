@@ -8,7 +8,6 @@ module Constants
   }
 
   CITY = {
-<<<<<<< HEAD
       Afganistán: "Kabul",
       Albania: "Tirana",
       Alemania: "Berlín",
@@ -25,9 +24,6 @@ module Constants
       Bangladés: "Daca",
       Barbados: "Bridgetown",
       Colombia: "Bogotá",
-=======
-      colombia: "Bogotá",
->>>>>>> d9ebebbb58a53bdb2803f9c44549b65416afa892
   }
 
 end
