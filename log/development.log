@@ -1,0 +1,28 @@
+Started GET "/" for ::1 at 2019-09-28 10:25:52 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/noguerajulioces/.rvm/gems/ruby-2.6.3/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/noguerajulioces/.rvm/gems/ruby-2.6.3/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb (6.3ms)
+Completed 200 OK in 24ms (Views: 16.8ms)
+
+
+Started GET "/rails/info" for ::1 at 2019-09-28 10:31:16 -0500
+Processing by Rails::InfoController#index as HTML
+Redirected to http://localhost:3000/rails/info/routes
+Completed 302 Found in 6ms
+
+
+Started GET "/rails/info/routes" for ::1 at 2019-09-28 10:31:16 -0500
+Processing by Rails::InfoController#routes as HTML
+  Rendering /Users/noguerajulioces/.rvm/gems/ruby-2.6.3/gems/railties-5.2.3/lib/rails/templates/rails/info/routes.html.erb within layouts/application
+  Rendered /Users/noguerajulioces/.rvm/gems/ruby-2.6.3/gems/actionpack-5.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (18.0ms)
+  Rendered /Users/noguerajulioces/.rvm/gems/ruby-2.6.3/gems/railties-5.2.3/lib/rails/templates/rails/info/routes.html.erb within layouts/application (22.4ms)
+Completed 200 OK in 36ms (Views: 32.7ms)
+
+
+Started GET "/" for ::1 at 2019-09-28 10:36:47 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/noguerajulioces/.rvm/gems/ruby-2.6.3/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/noguerajulioces/.rvm/gems/ruby-2.6.3/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb (2.9ms)
+Completed 200 OK in 14ms (Views: 5.4ms)
+
+
