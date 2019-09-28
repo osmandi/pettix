@@ -1,43 +1,25 @@
-<div class="container">
+<br><br><br>
         <section class="search">
             <input type="text" id="search" class="search--input" placeholder="¿Qué estás buscando?">
         </section>
+        
         <section class="connect">
             <h2 class="connect__title">Conecta con amigos</h2>
+            <% @pets.each do |pet| %>
             <div class="connect__friends">
                 <div class="connect__friends--item">
                     <figure class="item__img">
-                        <img src="" alt="">
+                         <%= image_tag pet.avatar.url %>
                     </figure>
                     <div class="item__data">
-                        <h3 class="item__data--name">Elmo</h3>
-                        <img src="" alt=""><p class="item__data--location">Bogotá</p>
+                        <h3 class="item__data--name"><%= pet.name %></h3>
+                        <img src="" alt=""><p class="item__data--location"><%= pet.ciudad %></p>
                     </div>
                 </div>
-                <div class="connect__friends--item">
-
-                </div>
-                <div class="connect__friends--item">
-
-                </div>
-                <div class="connect__friends--item">
-
-                </div>
-                <div class="connect__friends--item">
-
-                </div>
-                <div class="connect__friends--item">
-
-                </div>
-                <div class="connect__friends--item">
-
-                </div>
-                <div class="connect__friends--item">
-
-                </div>
-
-            </div>
+            <div>
+            <% end %>
         </section>
+        
         <section class="services">
         </section>
         <section class="advertisingBoard">
@@ -45,4 +27,3 @@
         <section class="events">
         </section>
         </div>
-</div>
