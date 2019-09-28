@@ -1,0 +1,188 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+ .container{
+    max-width: 1920px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "search search"
+                        "connect connect"
+                        "services advertisingBoard"
+                        "events events";
+}
+.search{
+    grid-area: search;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.search--input{
+    border: 2px solid #39347B;
+    border-radius: 40px;
+    height: 70px;
+    width: 90%;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 30px;
+}
+
+.search--input::placeholder{
+    font-size: 30px;
+    text-align: center;
+}
+.connect{
+    grid-area: connect;
+    padding: 20px;
+}
+.connect__title{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 40px;
+    color:  #39347B;
+    font-weight: bold;
+}
+.connect__friends{
+    display: grid;
+	grid-template-columns: repeat(auto-fill, 200px);
+	grid-gap: 20px;
+	justify-content: center;
+}
+.connect__friends--item{
+    background-color: #EBBB54;
+    padding: 5%;
+}
+.item__img{
+    height: 70%;
+    margin: 0;
+}
+.item__img img{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+.item__data--name{
+    margin: 10px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.item__data--details{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.item__data--details img{
+    width: 40px;
+    height: 40px;
+    padding: 0 20px;
+}
+.item__data--details__location{
+    font-size: 22px;
+    color: #000;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.services{
+    grid-area: services;
+    padding: 20px;
+}
+.services__title, .advertisingBoard__title{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 40px;
+    color:  #39347B;
+    font-weight: bold;
+}
+.services__button{
+    display: block;
+    width: 70%;
+    height: 10%;
+    margin: 10%;
+    cursor: pointer;
+    color: #fff;
+    background-color: #39347B;
+    font-size: 30px;
+    text-transform: uppercase;
+    border-radius: 30px;
+}
+.services__button:hover{
+    background-color: #907D87;
+}
+.advertisingBoard{
+    grid-area: advertisingBoard;
+    padding: 20px;
+}
+.advertisingBorad__item{
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.advertisingBoard__item--img{
+    width: 30%;
+    padding-right: 20px;
+}
+.advertisingBoard__item--details{
+    width: 70%;
+}
+.advertisingBoard__item--details__title{
+    margin: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.advertisingBoard__item--details__text{
+    font-size: 22px;
+    margin: 5px;
+}
+.events{
+    grid-area: events;
+    height: fit-content;
+    padding: 20px 20px 40px 20px;
+}
+.events__title{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 40px;
+    color:  #39347B;
+    font-weight: bold;
+    text-align: center;
+}
+.events__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.events__item{
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    padding: 20px;
+}
+.events__item--img{
+    width: 30%;
+    padding-right: 20px;
+}
+.events__item--details{
+    width: 70%;
+}
+.events__item--details__title{
+    margin: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.events__item--details__text{
+    font-size: 22px;
+    margin: 5px;
+}
