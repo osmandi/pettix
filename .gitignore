@@ -1,3 +1,5 @@
+*.swp
+log/test.log
 *.gem
 *.rbc
 /.config

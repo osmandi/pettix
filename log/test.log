@@ -1,0 +1,289 @@
+Started GET "/" for 172.19.0.1 at 2019-09-28 20:33:00 +0000
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+MONGODB | EVENT: #<TopologyOpening topology=Unknown[]>
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | EVENT: #<TopologyChanged prev=Unknown[] new=Unknown[db:27017]>
+MONGODB | Topology type 'Unknown' changed to type 'Unknown'.
+MONGODB | EVENT: #<ServerOpening address=db:27017 topology=Unknown[db:27017]>
+MONGODB | Server db:27017 initializing.
+MONGODB | EVENT: #<ServerDescriptionChanged address=db:27017 topology=Single[db:27017] prev=#<Mongo::Server:Description:0x47258468651100 config={} average_round_trip_time=> new=#<Mongo::Server:Description:0x47258468823140 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-09-28 20:33:00 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>2, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.001870944>>
+MONGODB | Server description for db:27017 changed from 'unknown' to 'standalone'.
+MONGODB | EVENT: #<TopologyChanged prev=Unknown[db:27017] new=Single[db:27017]>
+MONGODB | Topology type 'Unknown' changed to type 'Single'.
+MONGODB | EVENT: #<ServerDescriptionChanged address=db:27017 topology=Single[db:27017] prev=#<Mongo::Server:Description:0x47258468823140 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-09-28 20:33:00 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>2, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.001870944> new=#<Mongo::Server:Description:0x47258469045640 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-09-28 20:33:00 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>4, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.0015569556>>
+MONGODB | Server description for db:27017 changed from 'standalone' to 'standalone'.
+MONGODB | EVENT: #<TopologyChanged prev=Single[db:27017] new=Single[db:27017]>
+MONGODB | Topology type 'Single' changed to type 'Single'.
+MONGODB | db:27017 | pretixx_test.find | STARTED | {"find"=>"pets", "filter"=>{}, "lsid"=>{"id"=><BSON::Binary:0x47258468881120 type=uuid data=0x6a0546a1dbea4614...>}}
+MONGODB | db:27017 | pretixx_test.find | SUCCEEDED | 0.000s
+  Rendered welcome/index.html.erb within layouts/application (7.3ms)
+  Rendered _partials/_navbar.html.erb (0.5ms)
+  Rendered _partials/_footer.html.erb (0.3ms)
+Completed 200 OK in 4681ms (Views: 4673.8ms | MongoDB: 0.0ms)
+Started GET "/assets/application-419e4c01a438024021047456834849345fd2a7222f41bcb8d9c3d97bf84f71db.css" for 172.19.0.1 at 2019-09-28 20:33:05 +0000
+Started GET "/assets/application-d56cc1c5cade995cb629d14cbc2d271dead105a38d9147488b7655b9934eba7f.js" for 172.19.0.1 at 2019-09-28 20:33:05 +0000
+MONGODB | EVENT: #<ServerDescriptionChanged address=db:27017 topology=Single[db:27017] prev=#<Mongo::Server:Description:0x47258469045640 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-09-28 20:33:00 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>4, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.0015569556> new=#<Mongo::Server:Description:0x70054674716880 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-09-28 20:33:10 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>2, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.0014128952800000001>>
+MONGODB | Server description for db:27017 changed from 'standalone' to 'standalone'.
+MONGODB | EVENT: #<TopologyChanged prev=Single[db:27017] new=Single[db:27017]>
+MONGODB | Topology type 'Single' changed to type 'Single'.
+Started GET "/" for 172.19.0.1 at 2019-09-28 20:33:53 +0000
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+MONGODB | EVENT: #<TopologyOpening topology=Unknown[]>
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | EVENT: #<TopologyChanged prev=Unknown[] new=Unknown[db:27017]>
+MONGODB | Topology type 'Unknown' changed to type 'Unknown'.
+MONGODB | EVENT: #<ServerOpening address=db:27017 topology=Unknown[db:27017]>
+MONGODB | Server db:27017 initializing.
+MONGODB | EVENT: #<ServerDescriptionChanged address=db:27017 topology=Single[db:27017] prev=#<Mongo::Server:Description:0x47317081075240 config={} average_round_trip_time=> new=#<Mongo::Server:Description:0x47317081192360 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-09-28 20:33:53 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>2, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.001771541>>
+MONGODB | Server description for db:27017 changed from 'unknown' to 'standalone'.
+MONGODB | EVENT: #<TopologyChanged prev=Unknown[db:27017] new=Single[db:27017]>
+MONGODB | Topology type 'Unknown' changed to type 'Single'.
+MONGODB | EVENT: #<ServerDescriptionChanged address=db:27017 topology=Single[db:27017] prev=#<Mongo::Server:Description:0x47317081192360 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-09-28 20:33:53 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>2, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.001771541> new=#<Mongo::Server:Description:0x47317081539360 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-09-28 20:33:53 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>4, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.0014737096000000001>>
+MONGODB | Server description for db:27017 changed from 'standalone' to 'standalone'.
+MONGODB | EVENT: #<TopologyChanged prev=Single[db:27017] new=Single[db:27017]>
+MONGODB | Topology type 'Single' changed to type 'Single'.
+MONGODB | db:27017 | pretixx_test.find | STARTED | {"find"=>"pets", "filter"=>{}, "lsid"=>{"id"=><BSON::Binary:0x47317081255360 type=uuid data=0xce65f625a4ac4943...>}}
+MONGODB | db:27017 | pretixx_test.find | SUCCEEDED | 0.000s
+  Rendered welcome/index.html.erb within layouts/application (7.0ms)
+  Rendered _partials/_navbar.html.erb (0.5ms)
+  Rendered _partials/_footer.html.erb (0.1ms)
+Completed 200 OK in 271ms (Views: 262.6ms | MongoDB: 0.0ms)
+Started GET "/" for 172.19.0.1 at 2019-09-28 20:33:59 +0000
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+MONGODB | db:27017 | pretixx_test.find | STARTED | {"find"=>"pets", "filter"=>{}, "lsid"=>{"id"=><BSON::Binary:0x47317081255360 type=uuid data=0xce65f625a4ac4943...>}}
+MONGODB | db:27017 | pretixx_test.find | SUCCEEDED | 0.000s
+  Rendered welcome/index.html.erb within layouts/application (1.7ms)
+  Rendered _partials/_navbar.html.erb (0.3ms)
+  Rendered _partials/_footer.html.erb (0.0ms)
+Completed 200 OK in 5ms (Views: 4.3ms | MongoDB: 0.0ms)
+MONGODB | EVENT: #<ServerDescriptionChanged address=db:27017 topology=Single[db:27017] prev=#<Mongo::Server:Description:0x47317081539360 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-09-28 20:33:53 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>4, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.0014737096000000001> new=#<Mongo::Server:Description:0x70270329156960 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-09-28 20:34:03 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>2, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.0012640826800000002>>
+MONGODB | Server description for db:27017 changed from 'standalone' to 'standalone'.
+MONGODB | EVENT: #<TopologyChanged prev=Single[db:27017] new=Single[db:27017]>
+MONGODB | Topology type 'Single' changed to type 'Single'.
+Started GET "/" for 172.19.0.1 at 2019-09-28 20:34:56 +0000
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+MONGODB | EVENT: #<TopologyOpening topology=Unknown[]>
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | EVENT: #<TopologyChanged prev=Unknown[] new=Unknown[db:27017]>
+MONGODB | Topology type 'Unknown' changed to type 'Unknown'.
+MONGODB | EVENT: #<ServerOpening address=db:27017 topology=Unknown[db:27017]>
+MONGODB | Server db:27017 initializing.
+MONGODB | EVENT: #<ServerDescriptionChanged address=db:27017 topology=Single[db:27017] prev=#<Mongo::Server:Description:0x47025297697580 config={} average_round_trip_time=> new=#<Mongo::Server:Description:0x47025271774500 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-09-28 20:34:56 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>2, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.023215538>>
+MONGODB | Server description for db:27017 changed from 'unknown' to 'standalone'.
+MONGODB | EVENT: #<TopologyChanged prev=Unknown[db:27017] new=Single[db:27017]>
+MONGODB | Topology type 'Unknown' changed to type 'Single'.
+MONGODB | EVENT: #<ServerDescriptionChanged address=db:27017 topology=Single[db:27017] prev=#<Mongo::Server:Description:0x47025271774500 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-09-28 20:34:56 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>2, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.023215538> new=#<Mongo::Server:Description:0x47025278574140 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-09-28 20:34:56 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>4, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.018641783000000002>>
+MONGODB | Server description for db:27017 changed from 'standalone' to 'standalone'.
+MONGODB | EVENT: #<TopologyChanged prev=Single[db:27017] new=Single[db:27017]>
+MONGODB | Topology type 'Single' changed to type 'Single'.
+MONGODB | db:27017 | pretixx_test.find | STARTED | {"find"=>"pets", "filter"=>{}, "lsid"=>{"id"=><BSON::Binary:0x47025275750100 type=uuid data=0xc925ce4374034729...>}}
+MONGODB | db:27017 | pretixx_test.find | SUCCEEDED | 0.000s
+  Rendered welcome/index.html.erb within layouts/application (30.0ms)
+  Rendered _partials/_navbar.html.erb (0.5ms)
+  Rendered _partials/_footer.html.erb (0.1ms)
+Completed 200 OK in 314ms (Views: 302.8ms | MongoDB: 0.0ms)
+Started GET "/assets/application-d56cc1c5cade995cb629d14cbc2d271dead105a38d9147488b7655b9934eba7f.js" for 172.19.0.1 at 2019-09-28 20:34:57 +0000
+Started GET "/assets/application-419e4c01a438024021047456834849345fd2a7222f41bcb8d9c3d97bf84f71db.css" for 172.19.0.1 at 2019-09-28 20:34:57 +0000
+Started GET "/" for 172.19.0.1 at 2019-09-28 20:34:57 +0000
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+MONGODB | db:27017 | pretixx_test.find | STARTED | {"find"=>"pets", "filter"=>{}, "lsid"=>{"id"=><BSON::Binary:0x47025275750100 type=uuid data=0xc925ce4374034729...>}}
+MONGODB | db:27017 | pretixx_test.find | SUCCEEDED | 0.001s
+  Rendered welcome/index.html.erb within layouts/application (2.8ms)
+  Rendered _partials/_navbar.html.erb (0.5ms)
+  Rendered _partials/_footer.html.erb (0.1ms)
+Completed 200 OK in 8ms (Views: 6.8ms | MongoDB: 0.0ms)
+Started GET "/assets/application-419e4c01a438024021047456834849345fd2a7222f41bcb8d9c3d97bf84f71db.css" for 172.19.0.1 at 2019-09-28 20:34:57 +0000
+Started GET "/assets/application-d56cc1c5cade995cb629d14cbc2d271dead105a38d9147488b7655b9934eba7f.js" for 172.19.0.1 at 2019-09-28 20:34:57 +0000
+Started GET "/" for 172.19.0.1 at 2019-09-28 20:34:58 +0000
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+MONGODB | db:27017 | pretixx_test.find | STARTED | {"find"=>"pets", "filter"=>{}, "lsid"=>{"id"=><BSON::Binary:0x47025275750100 type=uuid data=0xc925ce4374034729...>}}
+MONGODB | db:27017 | pretixx_test.find | SUCCEEDED | 0.001s
+  Rendered welcome/index.html.erb within layouts/application (2.7ms)
+  Rendered _partials/_navbar.html.erb (0.5ms)
+  Rendered _partials/_footer.html.erb (0.0ms)
+Completed 200 OK in 7ms (Views: 6.2ms | MongoDB: 0.0ms)
+Started GET "/assets/application-d56cc1c5cade995cb629d14cbc2d271dead105a38d9147488b7655b9934eba7f.js" for 172.19.0.1 at 2019-09-28 20:34:58 +0000
+Started GET "/assets/application-419e4c01a438024021047456834849345fd2a7222f41bcb8d9c3d97bf84f71db.css" for 172.19.0.1 at 2019-09-28 20:34:58 +0000
+Started GET "/" for 172.19.0.1 at 2019-09-28 20:34:58 +0000
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+MONGODB | db:27017 | pretixx_test.find | STARTED | {"find"=>"pets", "filter"=>{}, "lsid"=>{"id"=><BSON::Binary:0x47025275750100 type=uuid data=0xc925ce4374034729...>}}
+MONGODB | db:27017 | pretixx_test.find | SUCCEEDED | 0.001s
+  Rendered welcome/index.html.erb within layouts/application (2.7ms)
+  Rendered _partials/_navbar.html.erb (0.4ms)
+  Rendered _partials/_footer.html.erb (0.0ms)
+Completed 200 OK in 7ms (Views: 6.2ms | MongoDB: 0.0ms)
+Started GET "/assets/application-419e4c01a438024021047456834849345fd2a7222f41bcb8d9c3d97bf84f71db.css" for 172.19.0.1 at 2019-09-28 20:34:58 +0000
+Started GET "/assets/application-d56cc1c5cade995cb629d14cbc2d271dead105a38d9147488b7655b9934eba7f.js" for 172.19.0.1 at 2019-09-28 20:34:58 +0000
+Started GET "/" for 172.19.0.1 at 2019-09-28 20:34:59 +0000
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+MONGODB | db:27017 | pretixx_test.find | STARTED | {"find"=>"pets", "filter"=>{}, "lsid"=>{"id"=><BSON::Binary:0x47025275750100 type=uuid data=0xc925ce4374034729...>}}
+MONGODB | db:27017 | pretixx_test.find | SUCCEEDED | 0.001s
+  Rendered welcome/index.html.erb within layouts/application (3.1ms)
+  Rendered _partials/_navbar.html.erb (0.5ms)
+  Rendered _partials/_footer.html.erb (0.1ms)
+Completed 200 OK in 8ms (Views: 7.2ms | MongoDB: 0.0ms)
+Started GET "/assets/application-419e4c01a438024021047456834849345fd2a7222f41bcb8d9c3d97bf84f71db.css" for 172.19.0.1 at 2019-09-28 20:34:59 +0000
+Started GET "/assets/application-d56cc1c5cade995cb629d14cbc2d271dead105a38d9147488b7655b9934eba7f.js" for 172.19.0.1 at 2019-09-28 20:34:59 +0000
+Started GET "/" for 172.19.0.1 at 2019-09-28 20:34:59 +0000
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+MONGODB | db:27017 | pretixx_test.find | STARTED | {"find"=>"pets", "filter"=>{}, "lsid"=>{"id"=><BSON::Binary:0x47025275750100 type=uuid data=0xc925ce4374034729...>}}
+MONGODB | db:27017 | pretixx_test.find | SUCCEEDED | 0.000s
+  Rendered welcome/index.html.erb within layouts/application (2.2ms)
+  Rendered _partials/_navbar.html.erb (0.4ms)
+  Rendered _partials/_footer.html.erb (0.0ms)
+Completed 200 OK in 6ms (Views: 4.9ms | MongoDB: 0.0ms)
+Started GET "/assets/application-419e4c01a438024021047456834849345fd2a7222f41bcb8d9c3d97bf84f71db.css" for 172.19.0.1 at 2019-09-28 20:35:00 +0000
+Started GET "/assets/application-d56cc1c5cade995cb629d14cbc2d271dead105a38d9147488b7655b9934eba7f.js" for 172.19.0.1 at 2019-09-28 20:35:00 +0000
+Started GET "/" for 172.19.0.1 at 2019-09-28 20:35:00 +0000
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+MONGODB | db:27017 | pretixx_test.find | STARTED | {"find"=>"pets", "filter"=>{}, "lsid"=>{"id"=><BSON::Binary:0x47025275750100 type=uuid data=0xc925ce4374034729...>}}
+MONGODB | db:27017 | pretixx_test.find | SUCCEEDED | 0.001s
+  Rendered welcome/index.html.erb within layouts/application (3.6ms)
+  Rendered _partials/_navbar.html.erb (0.6ms)
+  Rendered _partials/_footer.html.erb (0.1ms)
+Completed 200 OK in 10ms (Views: 8.9ms | MongoDB: 0.0ms)
+Started GET "/assets/application-419e4c01a438024021047456834849345fd2a7222f41bcb8d9c3d97bf84f71db.css" for 172.19.0.1 at 2019-09-28 20:35:00 +0000
+Started GET "/assets/application-d56cc1c5cade995cb629d14cbc2d271dead105a38d9147488b7655b9934eba7f.js" for 172.19.0.1 at 2019-09-28 20:35:00 +0000
+Started GET "/" for 172.19.0.1 at 2019-09-28 20:35:00 +0000
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+MONGODB | db:27017 | pretixx_test.find | STARTED | {"find"=>"pets", "filter"=>{}, "lsid"=>{"id"=><BSON::Binary:0x47025275750100 type=uuid data=0xc925ce4374034729...>}}
+MONGODB | db:27017 | pretixx_test.find | SUCCEEDED | 0.001s
+  Rendered welcome/index.html.erb within layouts/application (3.1ms)
+  Rendered _partials/_navbar.html.erb (0.7ms)
+  Rendered _partials/_footer.html.erb (0.1ms)
+Completed 200 OK in 10ms (Views: 8.3ms | MongoDB: 0.0ms)
+Started GET "/assets/application-419e4c01a438024021047456834849345fd2a7222f41bcb8d9c3d97bf84f71db.css" for 172.19.0.1 at 2019-09-28 20:35:01 +0000
+Started GET "/assets/application-d56cc1c5cade995cb629d14cbc2d271dead105a38d9147488b7655b9934eba7f.js" for 172.19.0.1 at 2019-09-28 20:35:01 +0000
+Started GET "/" for 172.19.0.1 at 2019-09-28 20:35:01 +0000
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+MONGODB | db:27017 | pretixx_test.find | STARTED | {"find"=>"pets", "filter"=>{}, "lsid"=>{"id"=><BSON::Binary:0x47025275750100 type=uuid data=0xc925ce4374034729...>}}
+MONGODB | db:27017 | pretixx_test.find | SUCCEEDED | 0.001s
+  Rendered welcome/index.html.erb within layouts/application (3.6ms)
+  Rendered _partials/_navbar.html.erb (0.4ms)
+  Rendered _partials/_footer.html.erb (0.0ms)
+Completed 200 OK in 9ms (Views: 7.9ms | MongoDB: 0.0ms)
+Started GET "/assets/application-419e4c01a438024021047456834849345fd2a7222f41bcb8d9c3d97bf84f71db.css" for 172.19.0.1 at 2019-09-28 20:35:01 +0000
+Started GET "/assets/application-d56cc1c5cade995cb629d14cbc2d271dead105a38d9147488b7655b9934eba7f.js" for 172.19.0.1 at 2019-09-28 20:35:01 +0000
+Started GET "/" for 172.19.0.1 at 2019-09-28 20:35:01 +0000
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+MONGODB | db:27017 | pretixx_test.find | STARTED | {"find"=>"pets", "filter"=>{}, "lsid"=>{"id"=><BSON::Binary:0x47025275750100 type=uuid data=0xc925ce4374034729...>}}
+MONGODB | db:27017 | pretixx_test.find | SUCCEEDED | 0.001s
+  Rendered welcome/index.html.erb within layouts/application (3.1ms)
+  Rendered _partials/_navbar.html.erb (0.4ms)
+  Rendered _partials/_footer.html.erb (0.1ms)
+Completed 200 OK in 8ms (Views: 7.0ms | MongoDB: 0.0ms)
+Started GET "/assets/application-419e4c01a438024021047456834849345fd2a7222f41bcb8d9c3d97bf84f71db.css" for 172.19.0.1 at 2019-09-28 20:35:01 +0000
+Started GET "/assets/application-d56cc1c5cade995cb629d14cbc2d271dead105a38d9147488b7655b9934eba7f.js" for 172.19.0.1 at 2019-09-28 20:35:01 +0000
+MONGODB | EVENT: #<ServerDescriptionChanged address=db:27017 topology=Single[db:27017] prev=#<Mongo::Server:Description:0x47025278574140 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-09-28 20:34:56 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>4, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.018641783000000002> new=#<Mongo::Server:Description:0x70026164566960 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-09-28 20:35:06 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>2, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.015054821600000002>>
+MONGODB | Server description for db:27017 changed from 'standalone' to 'standalone'.
+MONGODB | EVENT: #<TopologyChanged prev=Single[db:27017] new=Single[db:27017]>
+MONGODB | Topology type 'Single' changed to type 'Single'.
+Started GET "/users/sign_in" for 172.19.0.1 at 2019-09-28 20:35:08 +0000
+Processing by Devise::SessionsController#new as HTML
+MONGODB | db:27017 | pretixx_test.find | STARTED | {"find"=>"users", "filter"=>{"_id"=>BSON::ObjectId('5d8fc0ccf2efc600070c36e7')}, "sort"=>{"_id"=>1}, "limit"=>1, "singleBatch"=>true, "lsid"=>{"id"=><BSON::Binary:0x47025275750100 type=uuid data=0xc925ce4374034729...>}}
+MONGODB | db:27017 | pretixx_test.find | SUCCEEDED | 0.000s
+  Rendering /usr/local/bundle/gems/devise-4.7.1/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /usr/local/bundle/gems/devise-4.7.1/app/views/devise/shared/_links.html.erb (1.3ms)
+  Rendered /usr/local/bundle/gems/devise-4.7.1/app/views/devise/sessions/new.html.erb within layouts/application (10.0ms)
+  Rendered _partials/_navbar.html.erb (0.2ms)
+  Rendered _partials/_footer.html.erb (0.0ms)
+Completed 200 OK in 19ms (Views: 13.1ms | MongoDB: 0.0ms)
+Started POST "/users/sign_in" for 172.19.0.1 at 2019-09-28 20:35:15 +0000
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"email"=>"osmandi@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+MONGODB | db:27017 | pretixx_test.find | STARTED | {"find"=>"users", "filter"=>{"email"=>"osmandi@gmail.com"}, "limit"=>1, "sort"=>{"_id"=>1}, "singleBatch"=>true, "lsid"=>{"id"=><BSON::Binary:0x47025275750100 type=uuid data=0xc925ce4374034729...>}}
+MONGODB | db:27017 | pretixx_test.find | SUCCEEDED | 0.000s
+Completed 401 Unauthorized in 3ms (MongoDB: 0.0ms)
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"email"=>"osmandi@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering /usr/local/bundle/gems/devise-4.7.1/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /usr/local/bundle/gems/devise-4.7.1/app/views/devise/shared/_links.html.erb (0.2ms)
+  Rendered /usr/local/bundle/gems/devise-4.7.1/app/views/devise/sessions/new.html.erb within layouts/application (1.8ms)
+  Rendered _partials/_navbar.html.erb (0.1ms)
+  Rendered _partials/_footer.html.erb (0.0ms)
+Completed 200 OK in 6ms (Views: 3.2ms | MongoDB: 0.0ms)
+Started GET "/users/sign_up" for 172.19.0.1 at 2019-09-28 20:35:19 +0000
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering /usr/local/bundle/gems/devise-4.7.1/app/views/devise/registrations/new.html.erb within layouts/application
+  Rendered /usr/local/bundle/gems/devise-4.7.1/app/views/devise/shared/_error_messages.html.erb (0.6ms)
+  Rendered /usr/local/bundle/gems/devise-4.7.1/app/views/devise/shared/_links.html.erb (0.3ms)
+  Rendered /usr/local/bundle/gems/devise-4.7.1/app/views/devise/registrations/new.html.erb within layouts/application (3.7ms)
+  Rendered _partials/_navbar.html.erb (0.1ms)
+  Rendered _partials/_footer.html.erb (0.0ms)
+Completed 200 OK in 7ms (Views: 6.3ms | MongoDB: 0.0ms)
+Started POST "/users" for 172.19.0.1 at 2019-09-28 20:35:32 +0000
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "user"=>{"email"=>"osmandi@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+MONGODB | db:27017 | pretixx_test.find | STARTED | {"find"=>"users", "filter"=>{"email"=>"osmandi@gmail.com"}, "projection"=>{"_id"=>1}, "limit"=>1, "lsid"=>{"id"=><BSON::Binary:0x47025275750100 type=uuid data=0xc925ce4374034729...>}}
+MONGODB | db:27017 | pretixx_test.find | SUCCEEDED | 0.000s
+MONGODB | db:27017 | pretixx_test.insert | STARTED | {"insert"=>"users", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('5d8fc4140613410007ff1ce8'), "email"=>"osmandi@gmail.com", "encrypted_password"=>"$2a$04$.oKPwI/bcHsA9vGiqP5b3OupGyEAiqy9JPxRvgm7bMuUqRDSKMvxG"}], "lsid"=>{"id"=><BSON::Binary:0...
+MONGODB | db:27017 | pretixx_test.insert | SUCCEEDED | 0.290s
+Redirected to http://localhost:3000/
+Completed 302 Found in 314ms (MongoDB: 0.0ms)
+Started GET "/" for 172.19.0.1 at 2019-09-28 20:35:32 +0000
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+MONGODB | db:27017 | pretixx_test.find | STARTED | {"find"=>"pets", "filter"=>{}, "lsid"=>{"id"=><BSON::Binary:0x47025275750100 type=uuid data=0xc925ce4374034729...>}}
+MONGODB | db:27017 | pretixx_test.find | SUCCEEDED | 0.000s
+  Rendered welcome/index.html.erb within layouts/application (2.0ms)
+  Rendered _partials/_navbar.html.erb (0.2ms)
+  Rendered _partials/_footer.html.erb (0.0ms)
+Completed 200 OK in 5ms (Views: 4.1ms | MongoDB: 0.0ms)
+Started GET "/" for 172.19.0.1 at 2019-09-28 20:35:45 +0000
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+MONGODB | db:27017 | pretixx_test.find | STARTED | {"find"=>"pets", "filter"=>{}, "lsid"=>{"id"=><BSON::Binary:0x47025275750100 type=uuid data=0xc925ce4374034729...>}}
+MONGODB | db:27017 | pretixx_test.find | SUCCEEDED | 0.000s
+  Rendered welcome/index.html.erb within layouts/application (1.0ms)
+  Rendered _partials/_navbar.html.erb (0.1ms)
+  Rendered _partials/_footer.html.erb (0.0ms)
+Completed 200 OK in 3ms (Views: 2.2ms | MongoDB: 0.0ms)
+Started GET "/" for 172.19.0.1 at 2019-09-28 20:41:57 +0000
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+MONGODB | db:27017 | pretixx_test.find | STARTED | {"find"=>"pets", "filter"=>{}, "lsid"=>{"id"=><BSON::Binary:0x47025275750100 type=uuid data=0xc925ce4374034729...>}}
+MONGODB | db:27017 | pretixx_test.find | SUCCEEDED | 0.000s
+  Rendered welcome/index.html.erb within layouts/application (1.1ms)
+  Rendered _partials/_navbar.html.erb (0.1ms)
+  Rendered _partials/_footer.html.erb (0.0ms)
+Completed 200 OK in 3ms (Views: 2.3ms | MongoDB: 0.0ms)
+Started GET "/assets/application-d56cc1c5cade995cb629d14cbc2d271dead105a38d9147488b7655b9934eba7f.js" for 172.19.0.1 at 2019-09-28 20:41:57 +0000
+Started GET "/assets/application-419e4c01a438024021047456834849345fd2a7222f41bcb8d9c3d97bf84f71db.css" for 172.19.0.1 at 2019-09-28 20:41:57 +0000
+Started GET "/" for 172.19.0.1 at 2019-09-28 20:46:08 +0000
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+MONGODB | EVENT: #<TopologyOpening topology=Unknown[]>
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | EVENT: #<TopologyChanged prev=Unknown[] new=Unknown[db:27017]>
+MONGODB | Topology type 'Unknown' changed to type 'Unknown'.
+MONGODB | EVENT: #<ServerOpening address=db:27017 topology=Unknown[db:27017]>
+MONGODB | Server db:27017 initializing.
+MONGODB | EVENT: #<ServerDescriptionChanged address=db:27017 topology=Single[db:27017] prev=#<Mongo::Server:Description:0x47064871736020 config={} average_round_trip_time=> new=#<Mongo::Server:Description:0x47064871703280 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-09-28 20:46:08 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>2, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.00218348>>
+MONGODB | Server description for db:27017 changed from 'unknown' to 'standalone'.
+MONGODB | EVENT: #<TopologyChanged prev=Unknown[db:27017] new=Single[db:27017]>
+MONGODB | Topology type 'Unknown' changed to type 'Single'.
+MONGODB | EVENT: #<ServerDescriptionChanged address=db:27017 topology=Single[db:27017] prev=#<Mongo::Server:Description:0x47064871703280 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-09-28 20:46:08 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>2, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.00218348> new=#<Mongo::Server:Description:0x47064872009200 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-09-28 20:46:08 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>4, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.0018127759999999999>>
+MONGODB | Server description for db:27017 changed from 'standalone' to 'standalone'.
+MONGODB | EVENT: #<TopologyChanged prev=Single[db:27017] new=Single[db:27017]>
+MONGODB | Topology type 'Single' changed to type 'Single'.
+MONGODB | db:27017 | pretixx_test.find | STARTED | {"find"=>"pets", "filter"=>{}, "lsid"=>{"id"=><BSON::Binary:0x47064871808640 type=uuid data=0x71c3ce675d6b4c04...>}}
+MONGODB | db:27017 | pretixx_test.find | SUCCEEDED | 0.000s
+  Rendered welcome/index.html.erb within layouts/application (7.4ms)
+  Rendered _partials/_navbar.html.erb (0.4ms)
+  Rendered _partials/_footer.html.erb (0.2ms)
+Completed 200 OK in 294ms (Views: 285.7ms | MongoDB: 0.0ms)
+Started GET "/assets/application-d56cc1c5cade995cb629d14cbc2d271dead105a38d9147488b7655b9934eba7f.js" for 172.19.0.1 at 2019-09-28 20:46:08 +0000
+Started GET "/assets/application-419e4c01a438024021047456834849345fd2a7222f41bcb8d9c3d97bf84f71db.css" for 172.19.0.1 at 2019-09-28 20:46:08 +0000

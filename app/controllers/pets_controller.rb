@@ -21,20 +21,23 @@ class PetsController < ApplicationController
   def edit
   end
 
+  def image
+    @user = Pet.last
+    content = @user.image.read
+    if stale?(etag: content, last_modified: Time.now.utc, public: true)
+      send_data content, type: @user.image.file.content_type, disposition: "inline"
+      expires_in 0, public: true
+    end
+  end
+
   # POST /pets
   # POST /pets.json
   def create
     @pet = Pet.new(pet_params)
 
-    respond_to do |format|
       if @pet.save
-        format.html { redirect_to @pet, notice: 'Pet was successfully created.' }
-        format.json { render :show, status: :created, location: @pet }
-      else
-        format.html { render :new }
-        format.json { render json: @pet.errors, status: :unprocessable_entity }
+        redirect_to root_path
       end
-    end
   end
 
   # PATCH/PUT /pets/1
@@ -69,6 +72,6 @@ class PetsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def pet_params
-      params.require(:pet).permit(:name, :raza, :tipo, :ciudad, :interes)
+      params.require(:pet).permit(:name, :raza, :tipo, :ciudad, :interes, :image)
     end
 end

@@ -13,7 +13,7 @@ module Constants
       Alemania: "Berlín",
       Andorra: "Andorra la Vieja",
       Angola: "Luanda",
-      Arabia "Saudita: Riad",
+      Arabia: "Saudita: Riad",
       Argelia: "Argel",
       Argentina: "Buenos Aires",
       Armenia: "Ereván",
