@@ -1,0 +1,65 @@
+Started GET "/" for 172.19.0.1 at 2019-09-28 20:33:00 +0000
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+MONGODB | EVENT: #<TopologyOpening topology=Unknown[]>
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | EVENT: #<TopologyChanged prev=Unknown[] new=Unknown[db:27017]>
+MONGODB | Topology type 'Unknown' changed to type 'Unknown'.
+MONGODB | EVENT: #<ServerOpening address=db:27017 topology=Unknown[db:27017]>
+MONGODB | Server db:27017 initializing.
+MONGODB | EVENT: #<ServerDescriptionChanged address=db:27017 topology=Single[db:27017] prev=#<Mongo::Server:Description:0x47258468651100 config={} average_round_trip_time=> new=#<Mongo::Server:Description:0x47258468823140 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-09-28 20:33:00 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>2, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.001870944>>
+MONGODB | Server description for db:27017 changed from 'unknown' to 'standalone'.
+MONGODB | EVENT: #<TopologyChanged prev=Unknown[db:27017] new=Single[db:27017]>
+MONGODB | Topology type 'Unknown' changed to type 'Single'.
+MONGODB | EVENT: #<ServerDescriptionChanged address=db:27017 topology=Single[db:27017] prev=#<Mongo::Server:Description:0x47258468823140 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-09-28 20:33:00 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>2, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.001870944> new=#<Mongo::Server:Description:0x47258469045640 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-09-28 20:33:00 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>4, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.0015569556>>
+MONGODB | Server description for db:27017 changed from 'standalone' to 'standalone'.
+MONGODB | EVENT: #<TopologyChanged prev=Single[db:27017] new=Single[db:27017]>
+MONGODB | Topology type 'Single' changed to type 'Single'.
+MONGODB | db:27017 | pretixx_test.find | STARTED | {"find"=>"pets", "filter"=>{}, "lsid"=>{"id"=><BSON::Binary:0x47258468881120 type=uuid data=0x6a0546a1dbea4614...>}}
+MONGODB | db:27017 | pretixx_test.find | SUCCEEDED | 0.000s
+  Rendered welcome/index.html.erb within layouts/application (7.3ms)
+  Rendered _partials/_navbar.html.erb (0.5ms)
+  Rendered _partials/_footer.html.erb (0.3ms)
+Completed 200 OK in 4681ms (Views: 4673.8ms | MongoDB: 0.0ms)
+Started GET "/assets/application-419e4c01a438024021047456834849345fd2a7222f41bcb8d9c3d97bf84f71db.css" for 172.19.0.1 at 2019-09-28 20:33:05 +0000
+Started GET "/assets/application-d56cc1c5cade995cb629d14cbc2d271dead105a38d9147488b7655b9934eba7f.js" for 172.19.0.1 at 2019-09-28 20:33:05 +0000
+MONGODB | EVENT: #<ServerDescriptionChanged address=db:27017 topology=Single[db:27017] prev=#<Mongo::Server:Description:0x47258469045640 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-09-28 20:33:00 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>4, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.0015569556> new=#<Mongo::Server:Description:0x70054674716880 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-09-28 20:33:10 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>2, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.0014128952800000001>>
+MONGODB | Server description for db:27017 changed from 'standalone' to 'standalone'.
+MONGODB | EVENT: #<TopologyChanged prev=Single[db:27017] new=Single[db:27017]>
+MONGODB | Topology type 'Single' changed to type 'Single'.
+Started GET "/" for 172.19.0.1 at 2019-09-28 20:33:53 +0000
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+MONGODB | EVENT: #<TopologyOpening topology=Unknown[]>
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | EVENT: #<TopologyChanged prev=Unknown[] new=Unknown[db:27017]>
+MONGODB | Topology type 'Unknown' changed to type 'Unknown'.
+MONGODB | EVENT: #<ServerOpening address=db:27017 topology=Unknown[db:27017]>
+MONGODB | Server db:27017 initializing.
+MONGODB | EVENT: #<ServerDescriptionChanged address=db:27017 topology=Single[db:27017] prev=#<Mongo::Server:Description:0x47317081075240 config={} average_round_trip_time=> new=#<Mongo::Server:Description:0x47317081192360 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-09-28 20:33:53 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>2, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.001771541>>
+MONGODB | Server description for db:27017 changed from 'unknown' to 'standalone'.
+MONGODB | EVENT: #<TopologyChanged prev=Unknown[db:27017] new=Single[db:27017]>
+MONGODB | Topology type 'Unknown' changed to type 'Single'.
+MONGODB | EVENT: #<ServerDescriptionChanged address=db:27017 topology=Single[db:27017] prev=#<Mongo::Server:Description:0x47317081192360 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-09-28 20:33:53 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>2, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.001771541> new=#<Mongo::Server:Description:0x47317081539360 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-09-28 20:33:53 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>4, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.0014737096000000001>>
+MONGODB | Server description for db:27017 changed from 'standalone' to 'standalone'.
+MONGODB | EVENT: #<TopologyChanged prev=Single[db:27017] new=Single[db:27017]>
+MONGODB | Topology type 'Single' changed to type 'Single'.
+MONGODB | db:27017 | pretixx_test.find | STARTED | {"find"=>"pets", "filter"=>{}, "lsid"=>{"id"=><BSON::Binary:0x47317081255360 type=uuid data=0xce65f625a4ac4943...>}}
+MONGODB | db:27017 | pretixx_test.find | SUCCEEDED | 0.000s
+  Rendered welcome/index.html.erb within layouts/application (7.0ms)
+  Rendered _partials/_navbar.html.erb (0.5ms)
+  Rendered _partials/_footer.html.erb (0.1ms)
+Completed 200 OK in 271ms (Views: 262.6ms | MongoDB: 0.0ms)
+Started GET "/" for 172.19.0.1 at 2019-09-28 20:33:59 +0000
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+MONGODB | db:27017 | pretixx_test.find | STARTED | {"find"=>"pets", "filter"=>{}, "lsid"=>{"id"=><BSON::Binary:0x47317081255360 type=uuid data=0xce65f625a4ac4943...>}}
+MONGODB | db:27017 | pretixx_test.find | SUCCEEDED | 0.000s
+  Rendered welcome/index.html.erb within layouts/application (1.7ms)
+  Rendered _partials/_navbar.html.erb (0.3ms)
+  Rendered _partials/_footer.html.erb (0.0ms)
+Completed 200 OK in 5ms (Views: 4.3ms | MongoDB: 0.0ms)
+MONGODB | EVENT: #<ServerDescriptionChanged address=db:27017 topology=Single[db:27017] prev=#<Mongo::Server:Description:0x47317081539360 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-09-28 20:33:53 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>4, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.0014737096000000001> new=#<Mongo::Server:Description:0x70270329156960 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-09-28 20:34:03 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>2, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.0012640826800000002>>
+MONGODB | Server description for db:27017 changed from 'standalone' to 'standalone'.
+MONGODB | EVENT: #<TopologyChanged prev=Single[db:27017] new=Single[db:27017]>
+MONGODB | Topology type 'Single' changed to type 'Single'.

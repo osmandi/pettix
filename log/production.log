@@ -1,0 +1,204 @@
+I, [2019-09-28T20:29:56.566810 #7]  INFO -- : [05840d19-0022-4482-847c-bb518e33705b] Started GET "/" for 172.19.0.1 at 2019-09-28 20:29:56 +0000
+I, [2019-09-28T20:29:56.567424 #7]  INFO -- : [05840d19-0022-4482-847c-bb518e33705b] Processing by WelcomeController#index as HTML
+I, [2019-09-28T20:29:56.572030 #7]  INFO -- : [05840d19-0022-4482-847c-bb518e33705b]   Rendering welcome/index.html.erb within layouts/application
+I, [2019-09-28T20:29:56.574122 #7]  INFO -- : [05840d19-0022-4482-847c-bb518e33705b]   Rendered welcome/index.html.erb within layouts/application (2.0ms)
+I, [2019-09-28T20:29:56.574254 #7]  INFO -- : [05840d19-0022-4482-847c-bb518e33705b] Completed 500 Internal Server Error in 7ms (MongoDB: 0.0ms)
+F, [2019-09-28T20:29:56.574821 #7] FATAL -- : [05840d19-0022-4482-847c-bb518e33705b]   
+F, [2019-09-28T20:29:56.574859 #7] FATAL -- : [05840d19-0022-4482-847c-bb518e33705b] ActionView::Template::Error (
+message:
+  No configuration could be found for a client named 'default'.
+summary:
+  When attempting to create the new client, Mongoid could not find a client configuration for the name: 'default'. This is necessary in order to know the host, port, and options needed to connect.
+resolution:
+  Double check your mongoid.yml to make sure under the clients key that a configuration exists for 'default'. If you have set the configuration programatically, ensure that 'default' exists in the configuration hash.):
+F, [2019-09-28T20:29:56.574952 #7] FATAL -- : [05840d19-0022-4482-847c-bb518e33705b]      5:         
+[05840d19-0022-4482-847c-bb518e33705b]      6:         <section class="connect">
+[05840d19-0022-4482-847c-bb518e33705b]      7:             <h2 class="connect__title">Conecta con amigos</h2>
+[05840d19-0022-4482-847c-bb518e33705b]      8:             <% @pets.each do |pet| %>
+[05840d19-0022-4482-847c-bb518e33705b]      9:             <div class="connect__friends">
+[05840d19-0022-4482-847c-bb518e33705b]     10:                 <div class="connect__friends--item">
+[05840d19-0022-4482-847c-bb518e33705b]     11:                     <figure class="item__img">
+F, [2019-09-28T20:29:56.574975 #7] FATAL -- : [05840d19-0022-4482-847c-bb518e33705b]   
+F, [2019-09-28T20:29:56.575019 #7] FATAL -- : [05840d19-0022-4482-847c-bb518e33705b] app/views/welcome/index.html.erb:8:in `_app_views_welcome_index_html_erb__4540460685003779696_47355498518360'
+I, [2019-09-28T20:29:57.013712 #7]  INFO -- : [834bb1f5-bbf2-4043-a7ff-b5893b2d3e09] Started GET "/" for 172.19.0.1 at 2019-09-28 20:29:57 +0000
+I, [2019-09-28T20:29:57.014865 #7]  INFO -- : [834bb1f5-bbf2-4043-a7ff-b5893b2d3e09] Processing by WelcomeController#index as HTML
+I, [2019-09-28T20:29:57.017094 #7]  INFO -- : [834bb1f5-bbf2-4043-a7ff-b5893b2d3e09]   Rendering welcome/index.html.erb within layouts/application
+I, [2019-09-28T20:29:57.019192 #7]  INFO -- : [834bb1f5-bbf2-4043-a7ff-b5893b2d3e09]   Rendered welcome/index.html.erb within layouts/application (1.9ms)
+I, [2019-09-28T20:29:57.019460 #7]  INFO -- : [834bb1f5-bbf2-4043-a7ff-b5893b2d3e09] Completed 500 Internal Server Error in 4ms (MongoDB: 0.0ms)
+F, [2019-09-28T20:29:57.020697 #7] FATAL -- : [834bb1f5-bbf2-4043-a7ff-b5893b2d3e09]   
+F, [2019-09-28T20:29:57.020722 #7] FATAL -- : [834bb1f5-bbf2-4043-a7ff-b5893b2d3e09] ActionView::Template::Error (
+message:
+  No configuration could be found for a client named 'default'.
+summary:
+  When attempting to create the new client, Mongoid could not find a client configuration for the name: 'default'. This is necessary in order to know the host, port, and options needed to connect.
+resolution:
+  Double check your mongoid.yml to make sure under the clients key that a configuration exists for 'default'. If you have set the configuration programatically, ensure that 'default' exists in the configuration hash.):
+F, [2019-09-28T20:29:57.020799 #7] FATAL -- : [834bb1f5-bbf2-4043-a7ff-b5893b2d3e09]      5:         
+[834bb1f5-bbf2-4043-a7ff-b5893b2d3e09]      6:         <section class="connect">
+[834bb1f5-bbf2-4043-a7ff-b5893b2d3e09]      7:             <h2 class="connect__title">Conecta con amigos</h2>
+[834bb1f5-bbf2-4043-a7ff-b5893b2d3e09]      8:             <% @pets.each do |pet| %>
+[834bb1f5-bbf2-4043-a7ff-b5893b2d3e09]      9:             <div class="connect__friends">
+[834bb1f5-bbf2-4043-a7ff-b5893b2d3e09]     10:                 <div class="connect__friends--item">
+[834bb1f5-bbf2-4043-a7ff-b5893b2d3e09]     11:                     <figure class="item__img">
+F, [2019-09-28T20:29:57.020832 #7] FATAL -- : [834bb1f5-bbf2-4043-a7ff-b5893b2d3e09]   
+F, [2019-09-28T20:29:57.020854 #7] FATAL -- : [834bb1f5-bbf2-4043-a7ff-b5893b2d3e09] app/views/welcome/index.html.erb:8:in `_app_views_welcome_index_html_erb__4540460685003779696_47355498518360'
+I, [2019-09-28T20:29:57.519241 #7]  INFO -- : [3bae44c7-a91a-49aa-8eee-35be6e64c74a] Started GET "/" for 172.19.0.1 at 2019-09-28 20:29:57 +0000
+I, [2019-09-28T20:29:57.520357 #7]  INFO -- : [3bae44c7-a91a-49aa-8eee-35be6e64c74a] Processing by WelcomeController#index as HTML
+I, [2019-09-28T20:29:57.522415 #7]  INFO -- : [3bae44c7-a91a-49aa-8eee-35be6e64c74a]   Rendering welcome/index.html.erb within layouts/application
+I, [2019-09-28T20:29:57.524654 #7]  INFO -- : [3bae44c7-a91a-49aa-8eee-35be6e64c74a]   Rendered welcome/index.html.erb within layouts/application (2.0ms)
+I, [2019-09-28T20:29:57.524967 #7]  INFO -- : [3bae44c7-a91a-49aa-8eee-35be6e64c74a] Completed 500 Internal Server Error in 4ms (MongoDB: 0.0ms)
+F, [2019-09-28T20:29:57.526897 #7] FATAL -- : [3bae44c7-a91a-49aa-8eee-35be6e64c74a]   
+F, [2019-09-28T20:29:57.527092 #7] FATAL -- : [3bae44c7-a91a-49aa-8eee-35be6e64c74a] ActionView::Template::Error (
+message:
+  No configuration could be found for a client named 'default'.
+summary:
+  When attempting to create the new client, Mongoid could not find a client configuration for the name: 'default'. This is necessary in order to know the host, port, and options needed to connect.
+resolution:
+  Double check your mongoid.yml to make sure under the clients key that a configuration exists for 'default'. If you have set the configuration programatically, ensure that 'default' exists in the configuration hash.):
+F, [2019-09-28T20:29:57.527398 #7] FATAL -- : [3bae44c7-a91a-49aa-8eee-35be6e64c74a]      5:         
+[3bae44c7-a91a-49aa-8eee-35be6e64c74a]      6:         <section class="connect">
+[3bae44c7-a91a-49aa-8eee-35be6e64c74a]      7:             <h2 class="connect__title">Conecta con amigos</h2>
+[3bae44c7-a91a-49aa-8eee-35be6e64c74a]      8:             <% @pets.each do |pet| %>
+[3bae44c7-a91a-49aa-8eee-35be6e64c74a]      9:             <div class="connect__friends">
+[3bae44c7-a91a-49aa-8eee-35be6e64c74a]     10:                 <div class="connect__friends--item">
+[3bae44c7-a91a-49aa-8eee-35be6e64c74a]     11:                     <figure class="item__img">
+F, [2019-09-28T20:29:57.527472 #7] FATAL -- : [3bae44c7-a91a-49aa-8eee-35be6e64c74a]   
+F, [2019-09-28T20:29:57.527556 #7] FATAL -- : [3bae44c7-a91a-49aa-8eee-35be6e64c74a] app/views/welcome/index.html.erb:8:in `_app_views_welcome_index_html_erb__4540460685003779696_47355498518360'
+I, [2019-09-28T20:29:58.377013 #7]  INFO -- : [00b36dda-09e8-4d3e-9ef3-4b05be0b28cd] Started GET "/" for 172.19.0.1 at 2019-09-28 20:29:58 +0000
+I, [2019-09-28T20:29:58.377506 #7]  INFO -- : [00b36dda-09e8-4d3e-9ef3-4b05be0b28cd] Processing by WelcomeController#index as HTML
+I, [2019-09-28T20:29:58.378194 #7]  INFO -- : [00b36dda-09e8-4d3e-9ef3-4b05be0b28cd]   Rendering welcome/index.html.erb within layouts/application
+I, [2019-09-28T20:29:58.378846 #7]  INFO -- : [00b36dda-09e8-4d3e-9ef3-4b05be0b28cd]   Rendered welcome/index.html.erb within layouts/application (0.6ms)
+I, [2019-09-28T20:29:58.378933 #7]  INFO -- : [00b36dda-09e8-4d3e-9ef3-4b05be0b28cd] Completed 500 Internal Server Error in 1ms (MongoDB: 0.0ms)
+F, [2019-09-28T20:29:58.379488 #7] FATAL -- : [00b36dda-09e8-4d3e-9ef3-4b05be0b28cd]   
+F, [2019-09-28T20:29:58.379518 #7] FATAL -- : [00b36dda-09e8-4d3e-9ef3-4b05be0b28cd] ActionView::Template::Error (
+message:
+  No configuration could be found for a client named 'default'.
+summary:
+  When attempting to create the new client, Mongoid could not find a client configuration for the name: 'default'. This is necessary in order to know the host, port, and options needed to connect.
+resolution:
+  Double check your mongoid.yml to make sure under the clients key that a configuration exists for 'default'. If you have set the configuration programatically, ensure that 'default' exists in the configuration hash.):
+F, [2019-09-28T20:29:58.379608 #7] FATAL -- : [00b36dda-09e8-4d3e-9ef3-4b05be0b28cd]      5:         
+[00b36dda-09e8-4d3e-9ef3-4b05be0b28cd]      6:         <section class="connect">
+[00b36dda-09e8-4d3e-9ef3-4b05be0b28cd]      7:             <h2 class="connect__title">Conecta con amigos</h2>
+[00b36dda-09e8-4d3e-9ef3-4b05be0b28cd]      8:             <% @pets.each do |pet| %>
+[00b36dda-09e8-4d3e-9ef3-4b05be0b28cd]      9:             <div class="connect__friends">
+[00b36dda-09e8-4d3e-9ef3-4b05be0b28cd]     10:                 <div class="connect__friends--item">
+[00b36dda-09e8-4d3e-9ef3-4b05be0b28cd]     11:                     <figure class="item__img">
+F, [2019-09-28T20:29:58.379630 #7] FATAL -- : [00b36dda-09e8-4d3e-9ef3-4b05be0b28cd]   
+F, [2019-09-28T20:29:58.379656 #7] FATAL -- : [00b36dda-09e8-4d3e-9ef3-4b05be0b28cd] app/views/welcome/index.html.erb:8:in `_app_views_welcome_index_html_erb__4540460685003779696_47355498518360'
+I, [2019-09-28T20:29:59.076023 #7]  INFO -- : [86dc9691-86ae-433f-8b6e-382c805df803] Started GET "/" for 172.19.0.1 at 2019-09-28 20:29:59 +0000
+I, [2019-09-28T20:29:59.076458 #7]  INFO -- : [86dc9691-86ae-433f-8b6e-382c805df803] Processing by WelcomeController#index as HTML
+I, [2019-09-28T20:29:59.077163 #7]  INFO -- : [86dc9691-86ae-433f-8b6e-382c805df803]   Rendering welcome/index.html.erb within layouts/application
+I, [2019-09-28T20:29:59.077832 #7]  INFO -- : [86dc9691-86ae-433f-8b6e-382c805df803]   Rendered welcome/index.html.erb within layouts/application (0.6ms)
+I, [2019-09-28T20:29:59.077921 #7]  INFO -- : [86dc9691-86ae-433f-8b6e-382c805df803] Completed 500 Internal Server Error in 1ms (MongoDB: 0.0ms)
+F, [2019-09-28T20:29:59.078472 #7] FATAL -- : [86dc9691-86ae-433f-8b6e-382c805df803]   
+F, [2019-09-28T20:29:59.078502 #7] FATAL -- : [86dc9691-86ae-433f-8b6e-382c805df803] ActionView::Template::Error (
+message:
+  No configuration could be found for a client named 'default'.
+summary:
+  When attempting to create the new client, Mongoid could not find a client configuration for the name: 'default'. This is necessary in order to know the host, port, and options needed to connect.
+resolution:
+  Double check your mongoid.yml to make sure under the clients key that a configuration exists for 'default'. If you have set the configuration programatically, ensure that 'default' exists in the configuration hash.):
+F, [2019-09-28T20:29:59.078580 #7] FATAL -- : [86dc9691-86ae-433f-8b6e-382c805df803]      5:         
+[86dc9691-86ae-433f-8b6e-382c805df803]      6:         <section class="connect">
+[86dc9691-86ae-433f-8b6e-382c805df803]      7:             <h2 class="connect__title">Conecta con amigos</h2>
+[86dc9691-86ae-433f-8b6e-382c805df803]      8:             <% @pets.each do |pet| %>
+[86dc9691-86ae-433f-8b6e-382c805df803]      9:             <div class="connect__friends">
+[86dc9691-86ae-433f-8b6e-382c805df803]     10:                 <div class="connect__friends--item">
+[86dc9691-86ae-433f-8b6e-382c805df803]     11:                     <figure class="item__img">
+F, [2019-09-28T20:29:59.078601 #7] FATAL -- : [86dc9691-86ae-433f-8b6e-382c805df803]   
+F, [2019-09-28T20:29:59.078627 #7] FATAL -- : [86dc9691-86ae-433f-8b6e-382c805df803] app/views/welcome/index.html.erb:8:in `_app_views_welcome_index_html_erb__4540460685003779696_47355498518360'
+I, [2019-09-28T20:29:59.485906 #7]  INFO -- : [22e529a5-ebde-4632-bb42-dddace596171] Started GET "/" for 172.19.0.1 at 2019-09-28 20:29:59 +0000
+I, [2019-09-28T20:29:59.487072 #7]  INFO -- : [22e529a5-ebde-4632-bb42-dddace596171] Processing by WelcomeController#index as HTML
+I, [2019-09-28T20:29:59.489466 #7]  INFO -- : [22e529a5-ebde-4632-bb42-dddace596171]   Rendering welcome/index.html.erb within layouts/application
+I, [2019-09-28T20:29:59.491827 #7]  INFO -- : [22e529a5-ebde-4632-bb42-dddace596171]   Rendered welcome/index.html.erb within layouts/application (2.1ms)
+I, [2019-09-28T20:29:59.492147 #7]  INFO -- : [22e529a5-ebde-4632-bb42-dddace596171] Completed 500 Internal Server Error in 5ms (MongoDB: 0.0ms)
+F, [2019-09-28T20:29:59.494045 #7] FATAL -- : [22e529a5-ebde-4632-bb42-dddace596171]   
+F, [2019-09-28T20:29:59.494179 #7] FATAL -- : [22e529a5-ebde-4632-bb42-dddace596171] ActionView::Template::Error (
+message:
+  No configuration could be found for a client named 'default'.
+summary:
+  When attempting to create the new client, Mongoid could not find a client configuration for the name: 'default'. This is necessary in order to know the host, port, and options needed to connect.
+resolution:
+  Double check your mongoid.yml to make sure under the clients key that a configuration exists for 'default'. If you have set the configuration programatically, ensure that 'default' exists in the configuration hash.):
+F, [2019-09-28T20:29:59.494514 #7] FATAL -- : [22e529a5-ebde-4632-bb42-dddace596171]      5:         
+[22e529a5-ebde-4632-bb42-dddace596171]      6:         <section class="connect">
+[22e529a5-ebde-4632-bb42-dddace596171]      7:             <h2 class="connect__title">Conecta con amigos</h2>
+[22e529a5-ebde-4632-bb42-dddace596171]      8:             <% @pets.each do |pet| %>
+[22e529a5-ebde-4632-bb42-dddace596171]      9:             <div class="connect__friends">
+[22e529a5-ebde-4632-bb42-dddace596171]     10:                 <div class="connect__friends--item">
+[22e529a5-ebde-4632-bb42-dddace596171]     11:                     <figure class="item__img">
+F, [2019-09-28T20:29:59.494608 #7] FATAL -- : [22e529a5-ebde-4632-bb42-dddace596171]   
+F, [2019-09-28T20:29:59.494710 #7] FATAL -- : [22e529a5-ebde-4632-bb42-dddace596171] app/views/welcome/index.html.erb:8:in `_app_views_welcome_index_html_erb__4540460685003779696_47355498518360'
+I, [2019-09-28T20:31:28.225503 #7]  INFO -- : [2cff34a6-5a30-4d92-8374-bb3a69dc975e] Started GET "/" for 172.19.0.1 at 2019-09-28 20:31:28 +0000
+I, [2019-09-28T20:31:28.226295 #7]  INFO -- : [2cff34a6-5a30-4d92-8374-bb3a69dc975e] Processing by WelcomeController#index as HTML
+I, [2019-09-28T20:31:28.231693 #7]  INFO -- : [2cff34a6-5a30-4d92-8374-bb3a69dc975e]   Rendering welcome/index.html.erb within layouts/application
+D, [2019-09-28T20:31:28.232785 #7] DEBUG -- : [2cff34a6-5a30-4d92-8374-bb3a69dc975e] MONGODB | EVENT: #<TopologyOpening topology=Unknown[]>
+D, [2019-09-28T20:31:28.232853 #7] DEBUG -- : [2cff34a6-5a30-4d92-8374-bb3a69dc975e] MONGODB | Topology type 'unknown' initializing.
+D, [2019-09-28T20:31:28.233051 #7] DEBUG -- : [2cff34a6-5a30-4d92-8374-bb3a69dc975e] MONGODB | EVENT: #<TopologyChanged prev=Unknown[] new=Unknown[db:27017]>
+D, [2019-09-28T20:31:28.233109 #7] DEBUG -- : [2cff34a6-5a30-4d92-8374-bb3a69dc975e] MONGODB | Topology type 'Unknown' changed to type 'Unknown'.
+D, [2019-09-28T20:31:28.233282 #7] DEBUG -- : [2cff34a6-5a30-4d92-8374-bb3a69dc975e] MONGODB | EVENT: #<ServerOpening address=db:27017 topology=Unknown[db:27017]>
+D, [2019-09-28T20:31:28.233319 #7] DEBUG -- : [2cff34a6-5a30-4d92-8374-bb3a69dc975e] MONGODB | Server db:27017 initializing.
+D, [2019-09-28T20:31:28.235572 #7] DEBUG -- : MONGODB | EVENT: #<ServerDescriptionChanged address=db:27017 topology=Single[db:27017] prev=#<Mongo::Server:Description:0x46967284615880 config={} average_round_trip_time=> new=#<Mongo::Server:Description:0x46967284783340 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-09-28 20:31:28 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>2, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.001861741>>
+D, [2019-09-28T20:31:28.235653 #7] DEBUG -- : MONGODB | Server description for db:27017 changed from 'unknown' to 'standalone'.
+D, [2019-09-28T20:31:28.235726 #7] DEBUG -- : MONGODB | EVENT: #<TopologyChanged prev=Unknown[db:27017] new=Single[db:27017]>
+D, [2019-09-28T20:31:28.235772 #7] DEBUG -- : MONGODB | Topology type 'Unknown' changed to type 'Single'.
+D, [2019-09-28T20:31:28.237832 #7] DEBUG -- : [2cff34a6-5a30-4d92-8374-bb3a69dc975e] MONGODB | EVENT: #<ServerDescriptionChanged address=db:27017 topology=Single[db:27017] prev=#<Mongo::Server:Description:0x46967284783340 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-09-28 20:31:28 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>2, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.001861741> new=#<Mongo::Server:Description:0x46967285092640 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-09-28 20:31:28 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>4, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.0015537318000000003>>
+D, [2019-09-28T20:31:28.237914 #7] DEBUG -- : [2cff34a6-5a30-4d92-8374-bb3a69dc975e] MONGODB | Server description for db:27017 changed from 'standalone' to 'standalone'.
+D, [2019-09-28T20:31:28.237985 #7] DEBUG -- : [2cff34a6-5a30-4d92-8374-bb3a69dc975e] MONGODB | EVENT: #<TopologyChanged prev=Single[db:27017] new=Single[db:27017]>
+D, [2019-09-28T20:31:28.238026 #7] DEBUG -- : [2cff34a6-5a30-4d92-8374-bb3a69dc975e] MONGODB | Topology type 'Single' changed to type 'Single'.
+D, [2019-09-28T20:31:28.238144 #7] DEBUG -- : [2cff34a6-5a30-4d92-8374-bb3a69dc975e] MONGODB | db:27017 | pretixx_development.find | STARTED | {"find"=>"pets", "filter"=>{}, "lsid"=>{"id"=><BSON::Binary:0x46967285028320 type=uuid data=0xeb27e3b8c71e4ff3...>}}
+D, [2019-09-28T20:31:28.238445 #7] DEBUG -- : [2cff34a6-5a30-4d92-8374-bb3a69dc975e] MONGODB | db:27017 | pretixx_development.find | SUCCEEDED | 0.000s
+I, [2019-09-28T20:31:28.238673 #7]  INFO -- : [2cff34a6-5a30-4d92-8374-bb3a69dc975e]   Rendered welcome/index.html.erb within layouts/application (6.9ms)
+I, [2019-09-28T20:31:28.240493 #7]  INFO -- : [2cff34a6-5a30-4d92-8374-bb3a69dc975e] Completed 500 Internal Server Error in 14ms (MongoDB: 0.0ms)
+F, [2019-09-28T20:31:28.241434 #7] FATAL -- : [2cff34a6-5a30-4d92-8374-bb3a69dc975e]   
+F, [2019-09-28T20:31:28.241467 #7] FATAL -- : [2cff34a6-5a30-4d92-8374-bb3a69dc975e] ActionView::Template::Error (The asset "application.css" is not present in the asset pipeline.):
+F, [2019-09-28T20:31:28.241552 #7] FATAL -- : [2cff34a6-5a30-4d92-8374-bb3a69dc975e]      5:     <%= csrf_meta_tags %>
+[2cff34a6-5a30-4d92-8374-bb3a69dc975e]      6:     <%= csp_meta_tag %>
+[2cff34a6-5a30-4d92-8374-bb3a69dc975e]      7: 
+[2cff34a6-5a30-4d92-8374-bb3a69dc975e]      8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+[2cff34a6-5a30-4d92-8374-bb3a69dc975e]      9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+[2cff34a6-5a30-4d92-8374-bb3a69dc975e]     10:     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap" rel="stylesheet">
+[2cff34a6-5a30-4d92-8374-bb3a69dc975e]     11:   </head>
+F, [2019-09-28T20:31:28.241653 #7] FATAL -- : [2cff34a6-5a30-4d92-8374-bb3a69dc975e]   
+F, [2019-09-28T20:31:28.241680 #7] FATAL -- : [2cff34a6-5a30-4d92-8374-bb3a69dc975e] app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___2797388151960011520_46967284566040'
+I, [2019-09-28T20:31:29.884479 #7]  INFO -- : [f2ce8119-7d5a-4ed1-9d48-061e0a5f32c1] Started GET "/" for 172.19.0.1 at 2019-09-28 20:31:29 +0000
+I, [2019-09-28T20:31:29.885128 #7]  INFO -- : [f2ce8119-7d5a-4ed1-9d48-061e0a5f32c1] Processing by WelcomeController#index as HTML
+I, [2019-09-28T20:31:29.886639 #7]  INFO -- : [f2ce8119-7d5a-4ed1-9d48-061e0a5f32c1]   Rendering welcome/index.html.erb within layouts/application
+D, [2019-09-28T20:31:29.887693 #7] DEBUG -- : [f2ce8119-7d5a-4ed1-9d48-061e0a5f32c1] MONGODB | db:27017 | pretixx_development.find | STARTED | {"find"=>"pets", "filter"=>{}, "lsid"=>{"id"=><BSON::Binary:0x46967285028320 type=uuid data=0xeb27e3b8c71e4ff3...>}}
+D, [2019-09-28T20:31:29.888112 #7] DEBUG -- : [f2ce8119-7d5a-4ed1-9d48-061e0a5f32c1] MONGODB | db:27017 | pretixx_development.find | SUCCEEDED | 0.000s
+I, [2019-09-28T20:31:29.888388 #7]  INFO -- : [f2ce8119-7d5a-4ed1-9d48-061e0a5f32c1]   Rendered welcome/index.html.erb within layouts/application (1.7ms)
+I, [2019-09-28T20:31:29.889446 #7]  INFO -- : [f2ce8119-7d5a-4ed1-9d48-061e0a5f32c1] Completed 500 Internal Server Error in 4ms (MongoDB: 0.0ms)
+F, [2019-09-28T20:31:29.890392 #7] FATAL -- : [f2ce8119-7d5a-4ed1-9d48-061e0a5f32c1]   
+F, [2019-09-28T20:31:29.890428 #7] FATAL -- : [f2ce8119-7d5a-4ed1-9d48-061e0a5f32c1] ActionView::Template::Error (The asset "application.css" is not present in the asset pipeline.):
+F, [2019-09-28T20:31:29.890543 #7] FATAL -- : [f2ce8119-7d5a-4ed1-9d48-061e0a5f32c1]      5:     <%= csrf_meta_tags %>
+[f2ce8119-7d5a-4ed1-9d48-061e0a5f32c1]      6:     <%= csp_meta_tag %>
+[f2ce8119-7d5a-4ed1-9d48-061e0a5f32c1]      7: 
+[f2ce8119-7d5a-4ed1-9d48-061e0a5f32c1]      8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+[f2ce8119-7d5a-4ed1-9d48-061e0a5f32c1]      9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+[f2ce8119-7d5a-4ed1-9d48-061e0a5f32c1]     10:     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap" rel="stylesheet">
+[f2ce8119-7d5a-4ed1-9d48-061e0a5f32c1]     11:   </head>
+F, [2019-09-28T20:31:29.890576 #7] FATAL -- : [f2ce8119-7d5a-4ed1-9d48-061e0a5f32c1]   
+F, [2019-09-28T20:31:29.890610 #7] FATAL -- : [f2ce8119-7d5a-4ed1-9d48-061e0a5f32c1] app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___2797388151960011520_46967284566040'
+I, [2019-09-28T20:31:31.284542 #7]  INFO -- : [3e12062e-fb0e-4caa-b2d3-4081e5c85fa0] Started GET "/" for 172.19.0.1 at 2019-09-28 20:31:31 +0000
+I, [2019-09-28T20:31:31.285366 #7]  INFO -- : [3e12062e-fb0e-4caa-b2d3-4081e5c85fa0] Processing by WelcomeController#index as HTML
+I, [2019-09-28T20:31:31.286793 #7]  INFO -- : [3e12062e-fb0e-4caa-b2d3-4081e5c85fa0]   Rendering welcome/index.html.erb within layouts/application
+D, [2019-09-28T20:31:31.288081 #7] DEBUG -- : [3e12062e-fb0e-4caa-b2d3-4081e5c85fa0] MONGODB | db:27017 | pretixx_development.find | STARTED | {"find"=>"pets", "filter"=>{}, "lsid"=>{"id"=><BSON::Binary:0x46967285028320 type=uuid data=0xeb27e3b8c71e4ff3...>}}
+D, [2019-09-28T20:31:31.288499 #7] DEBUG -- : [3e12062e-fb0e-4caa-b2d3-4081e5c85fa0] MONGODB | db:27017 | pretixx_development.find | SUCCEEDED | 0.000s
+I, [2019-09-28T20:31:31.288697 #7]  INFO -- : [3e12062e-fb0e-4caa-b2d3-4081e5c85fa0]   Rendered welcome/index.html.erb within layouts/application (1.8ms)
+I, [2019-09-28T20:31:31.289888 #7]  INFO -- : [3e12062e-fb0e-4caa-b2d3-4081e5c85fa0] Completed 500 Internal Server Error in 4ms (MongoDB: 0.0ms)
+F, [2019-09-28T20:31:31.290822 #7] FATAL -- : [3e12062e-fb0e-4caa-b2d3-4081e5c85fa0]   
+F, [2019-09-28T20:31:31.290855 #7] FATAL -- : [3e12062e-fb0e-4caa-b2d3-4081e5c85fa0] ActionView::Template::Error (The asset "application.css" is not present in the asset pipeline.):
+F, [2019-09-28T20:31:31.290935 #7] FATAL -- : [3e12062e-fb0e-4caa-b2d3-4081e5c85fa0]      5:     <%= csrf_meta_tags %>
+[3e12062e-fb0e-4caa-b2d3-4081e5c85fa0]      6:     <%= csp_meta_tag %>
+[3e12062e-fb0e-4caa-b2d3-4081e5c85fa0]      7: 
+[3e12062e-fb0e-4caa-b2d3-4081e5c85fa0]      8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+[3e12062e-fb0e-4caa-b2d3-4081e5c85fa0]      9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+[3e12062e-fb0e-4caa-b2d3-4081e5c85fa0]     10:     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap" rel="stylesheet">
+[3e12062e-fb0e-4caa-b2d3-4081e5c85fa0]     11:   </head>
+F, [2019-09-28T20:31:31.290960 #7] FATAL -- : [3e12062e-fb0e-4caa-b2d3-4081e5c85fa0]   
+F, [2019-09-28T20:31:31.291019 #7] FATAL -- : [3e12062e-fb0e-4caa-b2d3-4081e5c85fa0] app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___2797388151960011520_46967284566040'
+D, [2019-09-28T20:31:38.237183 #7] DEBUG -- : MONGODB | EVENT: #<ServerDescriptionChanged address=db:27017 topology=Single[db:27017] prev=#<Mongo::Server:Description:0x46967285092640 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-09-28 20:31:28 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>4, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.0015537318000000003> new=#<Mongo::Server:Description:0x46967286526360 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-09-28 20:31:38 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>2, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.0013914000400000004>>
+D, [2019-09-28T20:31:38.237461 #7] DEBUG -- : MONGODB | Server description for db:27017 changed from 'standalone' to 'standalone'.
+D, [2019-09-28T20:31:38.238457 #7] DEBUG -- : MONGODB | EVENT: #<TopologyChanged prev=Single[db:27017] new=Single[db:27017]>
+D, [2019-09-28T20:31:38.238623 #7] DEBUG -- : MONGODB | Topology type 'Single' changed to type 'Single'.
