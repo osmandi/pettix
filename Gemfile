@@ -35,7 +35,7 @@ gem 'bootstrap', '~> 4.3.1'
 
 gem 'jquery-rails'
 
-
+gem "mongoid-paperclip", "~> 0.0.8", :require => "mongoid_paperclip"
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
 

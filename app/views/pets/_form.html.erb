@@ -17,6 +17,10 @@
   </div>
 
   <div class="field">
+    <%= form.file_field :avatar %>
+  </div>
+
+  <div class="field">
     <%= form.label :raza %>
     <%= form.text_field :raza %>
   </div>
@@ -28,7 +32,7 @@
 
   <div class="field">
     <%= form.label :ciudad %>
-    <%= form.text_field :ciudad %>
+    <%=  form.select :pet, Constants::CITY, include_blank: 'Select'  %>
   </div>
 
   <div class="field">
