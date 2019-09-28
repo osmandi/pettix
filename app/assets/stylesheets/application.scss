@@ -14,6 +14,7 @@
  *= require_self
  */
 
+<<<<<<< HEAD:app/assets/stylesheets/application.css
  body{
     margin: 0;
     font-family: 'Roboto Condensed', sans-serif;
@@ -77,3 +78,6 @@
     grid-area: events;
     background-color: #907D87;
 }
+=======
+ @import "bootstrap"
+>>>>>>> b0ef06d50534295e167aef0d21d2ac030d8598e5:app/assets/stylesheets/application.scss
