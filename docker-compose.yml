@@ -6,15 +6,17 @@ services:
       context: .
       dockerfile: Dockerfile
     image: pettix
+
     container_name: app_dev
     command: rails s -p 3000 -b '0.0.0.0'
-    #depends_on:
-    #  - mongo
-    links:
+    depends_on:
       - db
+    #links:
+    #  - db
     ports:
       - '3000:3000'
   db:
     image: mongo
+    #command: mongod --smallfiles --quiet
     ports:
       - '27017:27017'
