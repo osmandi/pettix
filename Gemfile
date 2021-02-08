@@ -35,7 +35,7 @@ gem 'bootstrap', '~> 4.3.1'
 
 gem 'jquery-rails'
 
-gem 'carrierwave', '~> 2.0'
+gem 'carrierwave', '~> 2.1'
 gem 'carrierwave-mongoid', :require => 'carrierwave/mongoid'
 
 # Reduces boot times through caching; required in config/boot.rb
